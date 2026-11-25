@@ -197,11 +197,11 @@ It provides a structured practical understanding of how digital evidence can be 
 
 ## 👨‍💻 Author
 
-**Kartik Kumar**
+**Nitin**
 
-GitHub: [@Kartik311209](https://github.com/Kartik311209)
+GitHub:https://github.com/nitin20041/Operation-name-2301350017-Nitin-Assignment-2 
 
-Project: [Operation Hydra](https://github.com/Kartik311209/Operation_hydra_project-)
+Project: [Operation Hydra](https://github.com/nitin20041/Operation-name-2301350017-Nitin-Assignment-2)
 
 ---
 

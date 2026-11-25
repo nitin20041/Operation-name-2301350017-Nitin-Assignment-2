@@ -1,0 +1,16 @@
+name: project-checks
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check files
+        run: python src/check_project.py
+      - name: Run analysis
+        run: python src/analyze.py
+      - name: Validate Markdown
+        run: npx --yes markdownlint-cli@0.45.0 README.md docs/*.md
